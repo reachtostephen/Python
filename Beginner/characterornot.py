@@ -1,5 +1,8 @@
-a = raw_input()
-if a.isalpha():
-	print "Character"
-else:
-	print "Not a Character"
+try:
+	a = raw_input()
+	if a.isalpha():
+		print "Character"
+	else:
+		print "Not a Character"
+except:
+	print("Consonant")
