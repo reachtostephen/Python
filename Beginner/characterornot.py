@@ -5,4 +5,4 @@ try:
 	else:
 		print "Not a Character"
 except:
-	print("Consonant")
+	print("Exception")
