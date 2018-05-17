@@ -1,8 +1,8 @@
 try:
 	a = raw_input()
 	if a.isalpha():
-		print "Character"
+		print "Alphabet"
 	else:
-		print "Not a Character"
+		print "No"
 except:
 	print("Exception")
