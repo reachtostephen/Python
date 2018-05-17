@@ -3,9 +3,9 @@ try:
 
 	
 	if a%4 == 0:
-		print("Leap Year")
+		print("Yes")
 	else:
-		print("Not a Leap year")
+		print("No")
 
 except:
 	print("Enter a Valid Input")
