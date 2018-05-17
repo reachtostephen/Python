@@ -8,7 +8,7 @@ try:
 		print("a is Greater")
 	elif b > a and b > c:
 		print("b is Greater")
-	elif c > a and c > b:
+	else:
 		print("c is Greater")
 except:
-	print("Input is not a digit")
+	print("Enter a valid input")
